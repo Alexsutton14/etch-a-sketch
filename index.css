@@ -1,15 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .header{
-    width: 80%;
+    display: flex;
+    width: 850px;
     height: 75px;
     margin: auto;
     text-align: center;
     background-color: rgb(167, 167, 167);
 }
+.header-item{
+    height: 100%;
+    flex-basis: 300px;
+}
+#title{
+    text-align: center;
+    flex-grow: 1
+}
+#reset-ui{
+    flex-grow: 3;
+}
+#header-right{
+    flex-grow: 3;
+}
 .container{
     margin: auto;
-    width: 80%;
+    width: 850px;
     height: 600px;
     background-color: black;
+}
+.grid-row{
+    box-sizing: border-box;
 }
 .cell{
     height: 100%;
