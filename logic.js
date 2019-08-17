@@ -40,7 +40,6 @@ function buildGrid(){
             let newCell = document.createElement("div");
             newCell.className = "cell";
             newCell.id = cellId;
-            newCell.style.width = `${split}%`;
             newCell.addEventListener("mouseover", function(){changeColor(cellId);});
             //adds cell to current row
             newDiv.appendChild(newCell);
