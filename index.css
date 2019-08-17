@@ -16,10 +16,16 @@
 }
 #title{
     text-align: center;
+    padding-top: 13px;
     flex-grow: 1
 }
 #reset-ui{
     flex-grow: 3;
+    display: flex;
+    flex-flow: column;
+}
+.reset-element{
+    flex: 1;
 }
 #header-right{
     flex-grow: 3;
